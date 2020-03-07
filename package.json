@@ -1,0 +1,23 @@
+{
+  "name": "docker-hapi",
+  "version": "0.0.1",
+  "description": "A hapi example app running in docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Amit Kirdatt",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.2",
+    "@hapi/joi": "^16.1.4",
+    "@hapi/vision": "^5.5.4",
+    "hapi-swagger": "^10.1.2",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
